@@ -14,13 +14,13 @@
  * contact@ghinda.net
  *
  */
- 
+
 /* Start of access theme */
 .acorn-player.access {
 	float: left;
 	position: relative;
 	overflow: hidden;
-	
+
 	font-family: Arial, Helvetica, sans-serif;
 }
 /* <video> element */
@@ -31,30 +31,30 @@
 }
 /* Player Controls */
 .acorn-player.access .acorn-controls {
-	position: relative;	
+	position: relative;
 	float: left;
 	clear: both;
 	width: 100%;
 	padding-top: 15px;
-		
-	background-image: url(controls-background-dark.png);
+
+	background-image: url(https://static.wixstatic.com/media/b3af43_54df9c392d5f466fbc42ba64e6279122~mv2.png);
 	background-position: bottom left;
 }
 /* <button>s */
 .acorn-player.access button {
-	position: relative;	
+	position: relative;
 	margin: 0;
 	padding-left: 25px;
 	height: 35px;
 	border: 1px solid #333;
 	background-color: #3F3F3F;
 	background-position: 5px center, top left;
-	background-repeat: no-repeat, repeat-x;	
-	
+	background-repeat: no-repeat, repeat-x;
+
 	font-weight: bold;
 	color: #fff;
 	text-shadow: 0px -1px 1px #000;
-	
+
 	cursor: pointer;
 }
 .acorn-player.access button:hover, .acorn-player.access button:focus {
@@ -62,7 +62,7 @@
 	background-position: 5px center, left -33px;
 }
 .acorn-player.access button:active {
-	top: 1px;	
+	top: 1px;
 	box-shadow: inset 1px 1px 10px #000;
 }
 /* Playback Controls(Play, Pause) */
@@ -70,10 +70,10 @@
 	float: left;
 	display: block;
 	width: 75px;
-	background-image: url(access-play.png), url(button-background-dark.png);
+	background-image: url(https://static.wixstatic.com/media/b3af43_178dc90532e848ce9350c6aaf139a2b5~mv2.png), url(https://static.wixstatic.com/media/b3af43_d90b77cad15244ac83bc246c3a7c6f3d~mv2.png);
 }
 .acorn-player.access .acorn-paused-button {
-	background-image: url(access-pause.png), url(button-background-dark.png);
+	background-image: url(https://static.wixstatic.com/media/b3af43_8d7672eac1df41a9a35f1ec3fd881a91~mv2.png), url(https://static.wixstatic.com/media/b3af43_d90b77cad15244ac83bc246c3a7c6f3d~mv2.png);
 }
 /* Seek Slider */
 .acorn-player.access .acorn-seek-slider {
@@ -82,7 +82,7 @@
 	display: block;
 	width: 100%;
 	height: 15px;
-		
+
 	background: #7289A8;
 	z-index: 2;
 }
@@ -97,22 +97,22 @@
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
-	
+
 	-moz-box-shadow: 0px 2px 8px #000;
 	-webkit-box-shadow: 0px 2px 8px #000;
 	box-shadow: 0px 2px 8px #000;
-	
+
 	background: #888;
 }
-.acorn-player.access .acorn-seek-slider .ui-slider-range {	
-	background: #0750B2;	
+.acorn-player.access .acorn-seek-slider .ui-slider-range {
+	background: #0750B2;
 }
-.acorn-player.access .acorn-buffer {	
-	background: #8E9DAF !important;	
+.acorn-player.access .acorn-buffer {
+	background: #8E9DAF !important;
 }
 .acorn-player.access .acorn-seek-slider .ui-state-focus, .acorn-player.access .acorn-seek-slider .ui-slider-handle.ui-state-hover {
 	background: #0750B2 !important;
-	
+
 	-moz-box-shadow: 0px 2px 15px #000;
 	-webkit-box-shadow: 0px 2px 15px #000;
 	box-shadow: 0px 2px 15px #000;
@@ -122,7 +122,7 @@
 	position: absolute;
 	top: 25px;
 	left: 260px;
-	
+
 	color: #efefef;
 	font-size: 14px;
 	font-weight: bold;
@@ -133,7 +133,7 @@
 	float: left;
 	overflow: hidden;
 	padding-right: 10px;
-	
+
 	-moz-box-shadow: 2px 0px 5px #111;
 	-webkit-box-shadow: 2px 0px 5px #111;
 	box-shadow: 2px 0px 5px #111;
@@ -143,14 +143,14 @@
 	float: left;
 	width: 85px;
 	border-left: none;
-	background-image: url(access-volume-full.png), url(button-background-dark.png);
-	
+	background-image: url(https://static.wixstatic.com/media/b3af43_dbaa01a7e1054c4c97ee2f4699ae0d97~mv2.png), url(https://static.wixstatic.com/media/b3af43_d90b77cad15244ac83bc246c3a7c6f3d~mv2.png);
+
 	-moz-box-shadow: 2px 0px 5px #111;
 	-webkit-box-shadow: 2px 0px 5px #111;
 	box-shadow: 2px 0px 5px #111;
 }
 .acorn-player.access .acorn-volume-mute {
-	background-image: url(access-volume.png), url(button-background-dark.png);
+	background-image: url(https://static.wixstatic.com/media/b3af43_78559eefe5794fe3b9ff2c599be051de~mv2.png), url(https://static.wixstatic.com/media/b3af43_d90b77cad15244ac83bc246c3a7c6f3d~mv2.png);
 }
 /* Volume Slider */
 .acorn-player.access .acorn-volume-slider {
@@ -158,24 +158,24 @@
 	height: 5px;
 	width: 70px;
 	margin-left: 10px;
-	margin-top: 15px;		
-	border: 1px solid #333;	
-	
+	margin-top: 15px;
+	border: 1px solid #333;
+
 	background: #111;
-	
+
 	-moz-box-shadow: 0px 1px 1px #777;
 	-webkit-box-shadow: 0px 1px 1px #777;
 	box-shadow: 0px 1px 1px #777;
 }
 .acorn-player.access .acorn-volume-slider .ui-slider-handle {
 	width: 5px;
-	height: 15px;	
+	height: 15px;
 	margin-top: -5px;
 	margin-left: -5px;
-	
+
 	border: 1px solid #333;
 	background: #BCBCBC;
-		
+
 	-moz-box-shadow: 0px 0px 5px #000;
 	-webkit-box-shadow: 0px 0px 5px #000;
 	box-shadow: 0px 0px 5px #000;
@@ -183,25 +183,25 @@
 .acorn-player.access .acorn-volume-slider .ui-slider-handle.ui-state-hover, .acorn-player.access .acorn-volume-slider .ui-slider-handle.ui-state-focus {
 	background: #fff !important;
 }
-.acorn-player.access .acorn-volume-slider .ui-slider-range {	
+.acorn-player.access .acorn-volume-slider .ui-slider-range {
 	background: #636F7C;
 }
 /* Fullscreen Button */
 .acorn-player.access .acorn-fullscreen-button {
 	float: right;
-	background-image: url(access-fullscreen.png), url(button-background-dark.png);
-	
+	background-image: url(https://static.wixstatic.com/media/b3af43_dc6459dcae9a4d4c9c26797694e73a27~mv2.png), url(https://static.wixstatic.com/media/b3af43_d90b77cad15244ac83bc246c3a7c6f3d~mv2.png);
+
 	-moz-box-shadow: -2px 0px 5px #111;
 	-webkit-box-shadow: -2px 0px 5px #111;
 	box-shadow: -2px 0px 5px #111;
 }
 /* Fullscreen Mode */
-.acorn-player.access .fullscreen-controls {	
+.acorn-player.access .fullscreen-controls {
 	left: 0px;
 	bottom: 0px;
 }
 .acorn-player.access .fullscreen-controls .acorn-fullscreen-button {
-	background-image: url(access-exit-fullscreen.png), url(button-background-dark.png);
+	background-image: url(https://static.wixstatic.com/media/b3af43_e2354abc2a624fdc89d17fe0f79c078a~mv2.png), url(https://static.wixstatic.com/media/b3af43_d90b77cad15244ac83bc246c3a7c6f3d~mv2.png);
 }
 /* Tooltip */
 .acorn-player.access .acorn-tooltip {
@@ -210,7 +210,7 @@
 	right: 20px;
 	padding: 10px;
 	background: rgba(70, 70, 70, 0.7);
-	
+
 	font-size: 14px;
 	font-weight: bold;
 	color: #fff;
@@ -222,7 +222,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	z-index: 9999;
-	
+
 	opacity: 0;
 	visibility: hidden;
 
@@ -239,8 +239,8 @@
 .acorn-player.access .acorn-caption-button {
 	float: right;
 	border-right: none;
-	background-image: url(access-captions.png), url(button-background-dark.png);
-	
+	background-image: url(https://static.wixstatic.com/media/b3af43_9583069c80b84f8f8bcfec7f4e0bef8a~mv2.png), url(https://static.wixstatic.com/media/b3af43_d90b77cad15244ac83bc246c3a7c6f3d~mv2.png);
+
 	-moz-box-shadow: -2px 0px 5px #111;
 	-webkit-box-shadow: -2px 0px 5px #111;
 	box-shadow: -2px 0px 5px #111;
@@ -249,15 +249,15 @@
 	font-size: 14px;
 	font-weight: bold;
 	color: #fff;
-	
+
 	text-shadow: 0px 1px 5px #000;
 }
 /* Transcript */
 .acorn-player.access .acorn-transcript-button {
 	float: right;
 	border-right: none;
-	background-image: url(access-transcript.png), url(button-background-dark.png);
-	
+	background-image: url(https://static.wixstatic.com/media/b3af43_634df15af97c493bb1cbd73e940f8be9~mv2.png), url(https://static.wixstatic.com/media/b3af43_d90b77cad15244ac83bc246c3a7c6f3d~mv2.png);
+
 	-moz-box-shadow: -2px 0px 5px #111;
 	-webkit-box-shadow: -2px 0px 5px #111;
 	box-shadow: -2px 0px 5px #111;
@@ -265,49 +265,49 @@
 .acorn-player.access .acorn-caption-active, .acorn-player.access .acorn-transcript-active {
 	background-position: 5px center, left bottom;
 }
-/* 
+/*
  * acesslight Child Theme
  */
 .acorn-player.access.accesslight .acorn-controls {
-	background-image: url(controls-background-light.png);
+	background-image: url(https://static.wixstatic.com/media/b3af43_2e9414817f984c30a576c19676036a5b~mv2.png);
 }
 /* <button>s */
 .acorn-player.access.accesslight button {
 	border: 1px solid #bdbdbd;
-		
+
 	color: #333;
 	text-shadow: 0px 1px 0px #fff;
 }
 /* Playback Controls(Play, Pause) */
 .acorn-player.access.accesslight .acorn-play-button {
-	background-image: url(access-play-dark.png), url(button-background-light.png);
+	background-image: url(https://static.wixstatic.com/media/b3af43_69a860f5b139438d97948a002874d2c0~mv2.png), url(https://static.wixstatic.com/media/b3af43_09a2a400475e488aa7d0ac37f0d381f3~mv2.png);
 }
 .acorn-player.access.accesslight .acorn-paused-button {
-	background-image: url(access-pause-dark.png), url(button-background-light.png);
+	background-image: url(https://static.wixstatic.com/media/b3af43_3430ceaab8014837a222dc95169e2222~mv2.png), url(https://static.wixstatic.com/media/b3af43_09a2a400475e488aa7d0ac37f0d381f3~mv2.png);
 }
 /* Volume Button */
 .acorn-player.access.accesslight .acorn-volume-button {
-	background-image: url(access-volume-full-dark.png), url(button-background-light.png);
-	
+	background-image: url(https://static.wixstatic.com/media/b3af43_b2126a6e69444b29952355332e760542~mv2.png), url(https://static.wixstatic.com/media/b3af43_09a2a400475e488aa7d0ac37f0d381f3~mv2.png);
+
 	-moz-box-shadow: 2px 0px 5px #8c8c8c;
 	-webkit-box-shadow: 2px 0px 5px #8c8c8c;
 	box-shadow: 2px 0px 5px #8c8c8c;
 }
 .acorn-player.access.accesslight .acorn-volume-mute {
-	background-image: url(access-volume-dark.png), url(button-background-light.png);
+	background-image: url(https://static.wixstatic.com/media/b3af43_571f350789c143b2b97f41fbbf1dfe78~mv2.png), url(https://static.wixstatic.com/media/b3af43_09a2a400475e488aa7d0ac37f0d381f3~mv2.png);
 }
 /* Caption Buttton */
 .acorn-player.access.accesslight .acorn-caption-button {
-	background-image: url(access-captions-dark.png), url(button-background-light.png);
-	
+	background-image: url(https://static.wixstatic.com/media/b3af43_476f2381ab47456fb7552b1a0d550cfe~mv2.png), url(https://static.wixstatic.com/media/b3af43_09a2a400475e488aa7d0ac37f0d381f3~mv2.png);
+
 	-moz-box-shadow: -2px 0px 5px #8c8c8c;
 	-webkit-box-shadow: -2px 0px 5px #8c8c8c;
 	box-shadow: -2px 0px 5px #8c8c8c;
 }
 /* Transcript */
 .acorn-player.access.accesslight .acorn-transcript-button {
-	background-image: url(access-transcript-dark.png), url(button-background-light.png);
-	
+	background-image: url(https://static.wixstatic.com/media/b3af43_35a12dd54be04bcdbd3b5b743b7d6ad5~mv2.png), url(https://static.wixstatic.com/media/b3af43_09a2a400475e488aa7d0ac37f0d381f3~mv2.png);
+
 	-moz-box-shadow: -2px 0px 5px #8c8c8c;
 	-webkit-box-shadow: -2px 0px 5px #8c8c8c;
 	box-shadow: -2px 0px 5px #8c8c8c;
@@ -317,9 +317,9 @@
 	text-shadow: none;
 }
 /* Fullscreen Button */
-.acorn-player.access.accesslight .acorn-fullscreen-button {	
-	background-image: url(access-fullscreen-dark.png), url(button-background-light.png);
-	
+.acorn-player.access.accesslight .acorn-fullscreen-button {
+	background-image: url(https://static.wixstatic.com/media/b3af43_7e785428d5eb44de804146b80271e8b0~mv2.png), url(https://static.wixstatic.com/media/b3af43_09a2a400475e488aa7d0ac37f0d381f3~mv2.png);
+
 	-moz-box-shadow: -2px 0px 5px #8c8c8c;
 	-webkit-box-shadow: -2px 0px 5px #8c8c8c;
 	box-shadow: -2px 0px 5px #8c8c8c;
@@ -331,15 +331,15 @@
 	box-shadow: 2px 0px 5px #8c8c8c;
 }
 /* Timer */
-.acorn-player.access.accesslight .acorn-timer {	
+.acorn-player.access.accesslight .acorn-timer {
 	color: #333;
 	text-shadow: 0px 1px 2px #fff;
 }
 /* Volume Slider */
 .acorn-player.access.accesslight .acorn-volume-slider {
-	border: 1px solid #333;	
+	border: 1px solid #333;
 	background: #c1c1c1;
-	
+
 	-moz-box-shadow: 0px 1px 1px #fff;
 	-webkit-box-shadow: 0px 1px 1px #fff;
 	box-shadow: 0px 1px 1px #fff;
